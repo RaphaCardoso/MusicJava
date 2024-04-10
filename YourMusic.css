@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#518C77, #BFD9D1) no-repeat !important;
+}
+
+.nav {
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 10px;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    text-decoration: none !important;
+    font-size: larger;
+}
