@@ -34,7 +34,7 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     color: white;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 a,
@@ -61,7 +61,6 @@ a:hover,
     background-color: rgba(0, 0, 0, 0.600);
     border-radius: 25px;
     transition: .4s ease-in-out;
-    margin-top: 100px;
 }
 
 #heading {
@@ -104,6 +103,14 @@ a:hover,
     justify-content: center;
     flex-direction: row;
 }
+
+.botao {
+    display: flex;
+    width: 700px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
 
 .button3 {
     margin-top: 2em;
@@ -172,4 +179,29 @@ button:active {
     color: white;
     font-size: 15px;
     padding: 24px 46px 24px 26px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(0, 0, 0, 0.300) !important;
+    flex-direction: row !important;
+    gap: 50px;
+    width: 70%;
+    height: 180px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.card-image-top {
+    width: 150px;
+    height: 150px;
 }
