@@ -35,7 +35,6 @@
         <a class="nav-link" href="YourMusic.html">Your Music</a>
         <a class="nav-link config" href="Config.html">Config</a>
     </nav>
-
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -69,7 +68,7 @@
                         <h5 class="card-title">Music Amsterdã</h5>
                         <p class="card-text">Essa música me lembra de um local tranquilo e feliz.</p>
                         <p class="user">@Raphaboots</p>
-                        <a href="#" class="btn btn-outline-success">Ouvir</a>
+                        <a href="#" id="MusicalPlayer" class="btn btn-outline-success">Ouvir</a>
                         <a href="#" class="btn btn-outline-success">Add to playlist</a>
                     </div>
                 </div>
@@ -86,6 +85,31 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
+
+    <div class="containerMusic">
+        <div class="anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-rewind-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7.729 5.055A.5.5 0 0 1 8 5.5v1.886l3.21-2.293A.5.5 0 0 1 12 5.5v5a.5.5 0 0 1-.79.407L8 8.614V10.5a.5.5 0 0 1-.79.407l-3.5-2.5a.5.5 0 0 1 0-.814l3.5-2.5a.5.5 0 0 1 .519-.038" />
+            </svg>
+        </div>
+        <div class="pause">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
+            </svg>
+        </div>
+        <div class="posterior"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-fast-forward-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M4.79 5.093 8 7.386V5.5a.5.5 0 0 1 .79-.407l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 8 10.5V8.614l-3.21 2.293A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .79-.407" />
+            </svg> </div>
+    </div>
+
 </body>
 
 </html>
